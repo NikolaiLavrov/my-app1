@@ -1,10 +1,82 @@
+
+@font-face {
+	font-family: Montserratt;
+	src: url(/src/fonts/Montserrat-Bold.ttf);
+}
+
+.btn_edit .btn-dark{
+	background: #000;
+}
+.btn_plus{
+	cursor: pointer;
+}
+.nav .nav-link.active{
+	color: #000;
+	border-bottom: 3px solid #000;
+}
+.nav-item a{
+	color: #6C757D;
+	font-size: 20px;
+	padding: 0;
+}
+.nav-item a:hover{
+	color: #4a4d50;
+}
+.line_middle svg{
+	vertical-align: sub;
+}
+.form-label{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar{
+	background: #000;
+}
+
+.card-text{
+color: #6C757D;
+font-size: 13px;
+}
+.btn_edit{
+	display: flex;
+	justify-content: center;
+}
+.form-control{
+	margin-bottom: 20px;
+	text-align: center;
+	box-shadow: 1px 1px 1px rgba(51, 51, 51, 0.37);
+}
+.form-control{
+	padding: 15px;
+	height: unset;
+}
+.generate_link a{
+	color: #333;
+}
+.generate_link a:hover{
+	color: rgb(110, 105, 105);
+}
 .App {
   text-align: center;
+  font-family: Montserratt;
+}
+
+#root{
+	font-family: Montserratt;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Main{
+	padding: 50px 0 0 0;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +108,4 @@
     transform: rotate(360deg);
   }
 }
+
