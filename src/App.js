@@ -5,14 +5,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NaviBar from './Components/Navibar';
 import MainBlock from './Components/Mainblock';
 import CatalogBlock from './Components/Catalog';
+import {BaseRouter} from "./router";
 
 
 function App() {
 	return (
 		<>
-			<NaviBar />
-			<MainBlock endpoints={[{ placeholder: 'Endpoint_name_1' }, { placeholder: 'Endpoint_name_2' }, { placeholder: 'Endpoint_name_3' }, { placeholder: 'Endpoint_name_4' }]} />
-			<CatalogBlock items={[{}, {}, {}, {}, {}, {}, {}, {}, {}]} />
+			<BaseRouter/>
+			{/*<NaviBar />*/}
+			{/*<MainBlock endpoints={[{ placeholder: 'Endpoint_name_1' }, { placeholder: 'Endpoint_name_2' }, { placeholder: 'Endpoint_name_3' }, { placeholder: 'Endpoint_name_4' }]} />*/}
+			{/*<CatalogBlock items={[{title: 'Kolya', description: 'Это описание карточки'}]} />*/}
 		</>
 	);
 }

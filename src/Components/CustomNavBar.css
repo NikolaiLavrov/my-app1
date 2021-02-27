@@ -1,0 +1,14 @@
+.active {
+    color: #000000 !important;
+    border-bottom: 2px solid black;
+}
+
+.default {
+    color: #868686;
+    font-size: 16px;
+}
+
+.default:hover {
+    color: black;
+    cursor: pointer;
+}

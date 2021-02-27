@@ -9,7 +9,7 @@ export default function CatalogBlock({ items }) {
 			<div className="Main">
 				<Container>
 					<Row className="row-cols-1 row-cols-md-4 g-4">
-						{items && items.map((i, index) => <CardBlock key={index} />)}
+						{items && items.map((i, index) => <CardBlock item={i} key={index} />)}
 					</Row>
 				</Container>
 			</div>
